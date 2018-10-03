@@ -1,0 +1,639 @@
+﻿<div class="collection">
+        <a href="#" class="collection-item">First Item</a>
+        <a href="#" class="collection-item">Second Item</a>
+        <a href="#" class="collection-item">Third Item</a>
+        <a href="#" class="collection-item">Fourth Item</a>
+    </div>
+
+Badge with drop down
+ <ul id="ddl" class="dropdown-content">
+        <li><a href="#">Value 1<span class="badge">3</span></a></li>
+        <li><a href="#">Value 2<span class="badge new">1</span></a></li>
+        <li><a href="#">Value 3<span class="badge">8</span></a></li>
+        <li><a href="#">Value 4</a></li>
+        <li><a href="#">Value 5<span class="badge new">7</span></a></li>
+        <li><a href="#">Value 6</a></li>
+        <li><a href="#">Value 7<span class="badge new">4</span></a></li>
+        <li><a href="#">Value 8<span class="badge">56</span></a></li>
+    </ul>
+
+    <a class="btn dropdown-button" href="#!" data-activates="ddl">
+			Please Select
+			<i class="mdi-navigation-arrow-drop-down right"></i>
+	</a>
+Ends here 
+Button with icons
+
+ <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+</head>
+
+
+    <a class="waves-effect waves-light btn">Drop<i class="material-icons right">invert_colors</i></a>
+    <a class="waves-effect waves-light btn">E-Mail<i class="material-icons right">email</i></a>
+    <button class="waves-effect waves-light btn">Send<i class="material-icons right">send</i></button>
+    <button class="waves-effect waves-light btn">Yes<i class="material-icons right">thumb_up</i></button>
+Ends here
+Basis card 
+Start here
+
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">Allinworld99</span>
+                    <p>This is the simple card example. Card is used to describe small bits of information. Card required to use markup to effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">First link</a>
+                    <a href="#">Second link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+Ends here**
+Card with image
+Starts here
+
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="cardimage.jpg">
+                    <span class="card-title">Natural Image</span>
+                </div>
+                <div class="card-content">
+                    <p>This is the simple card example. Card is used to describe small bits of information. Card required to use markup to effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+Ends here
+Chip class closable starts here
+<style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="chip">
+        Tag 1
+    </div>
+
+    <div class="chip">
+        <img src="face.png"> Tag with image
+    </div>
+
+    <br>
+    <br>
+    <div class="chip">
+        Tag 1
+        <i class="material-icons">close</i>
+    </div>
+
+    <div class="chip">
+        <img src="face.png"> Tag with image
+        <i class="material-icons">close</i>
+    </div>
+Ends here***
+Form input starts here***
+
+
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Name</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="age" type="text" class="validate">
+            <label for="age">Age</label>
+        </div>
+
+        <div class="input-field col s6">
+            <input id="reg_number" type="text" class="validate">
+            <label for="reg_number">Register Number</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="email" type="text" class="validate">
+            <label for="email">E-Mail Address</label>
+        </div>
+    </div>
+...ends here
+Text box with icon__
+<style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">contacts</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Contact Name</label>
+        </div>
+        <div class="input-field col s6">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone" type="text" class="validate">
+            <label for="icon_telephone">Mobile Number</label>
+        </div>
+    </div> 
+
+Ends here
+
+Drop down list
+
+    <div class="row">
+        <!--you should call this function $('select').material_select();-->
+        <div class="col s6">
+            <div class="input-field">
+                <select>
+                    <option value="">Choose your option</option>
+                    <option value="1">India</option>
+                    <option value="2">USA</option>
+                    <option value="3">Gujarath</option>
+                </select>
+                <label>Choose your place</label>
+            </div>
+        </div>
+
+        <div class="col s6">
+            <div class="input-field">
+                <select>
+                    <option value="">Choose your option</option>
+                    <option value="1">BE</option>
+                    <option value="2">MBA</option>
+                    <option value="3">MBBS</option>
+                    <option value="4">MSC</option>
+                    <option value="5">MTech</option>
+                    <option value="6">Diploma</option>
+                    <option value="7">MCA</option>
+                    <option value="8">BCA</option>
+                    <option value="9">+2 Pass</option>
+                    <option value="10">BTech</option>
+                </select>
+                <label>Select your degree</label>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+    </script>
+Ends here..
+Switches starts here...
+<div class="switch">
+        <label>
+            OFF
+            <input type="checkbox">
+            <span class="lever"></span> ON
+        </label>
+    </div>
+    <br>
+
+    <div class="switch">
+        <label>
+            Close
+            <input type="checkbox">
+            <span class="lever"></span> Open
+        </label>
+    </div>
+Text box with character
+<div class="row">
+        <div class="col s6">
+            <div class="input-field">
+                <textarea id="ta" class="materialize-textarea" length="100"></textarea>
+                <label for="ta">Enter Your Comments</label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="input-field">
+                <textarea id="ta" class="materialize-textarea" length="500"></textarea>
+                <label for="ta">Description</label>
+            </div>
+        </div>
+    </div>
+Ends here
+Search box
+<style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="blue">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+        </div>
+    </nav>
+Ends here...
+Pagination...
+ <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+
+    <ul class="pagination">
+        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="active"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!">6</a></li>
+        <li class="waves-effect"><a href="#!">7</a></li>
+        <li class="waves-effect"><a href="#!">8</a></li>
+        <li class="waves-effect"><a href="#!">9</a></li>
+        <li class="waves-effect"><a href="#!">10</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+....Ends here
+Tabs with icons
+ <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <br>
+    <br>
+    <br>
+
+    <ul class="collapsible" data-collapsible="accordion">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">language</i>Tab 1</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 1 content. Tab one related contents are written here. The header is included the "language" icons.</p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">vpn_key</i>Tab 2</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 2 content. Tab two related contents are written here. The header is included the "vpn_key" icons.</p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">voicemail</i>Tab 3</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 3 content. Tab three related contents are written here. The header is included the "voicemail" icons.</p>
+            </div>
+        </li>
+    </ul>
+Ends here...
+Pop out tabs starts here
+ <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+</head>
+
+ <br>
+    <br>
+    <br>
+
+    <ul class="collapsible popout" data-collapsible="accordion">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">language</i>Tab 1</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 1 content. Tab one related contents are written here. The header is included the "language" icons.</p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">vpn_key</i>Tab 2</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 2 content. Tab two related contents are written here. The header is included the "vpn_key" icons.</p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">voicemail</i>Tab 3</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 3 content. Tab three related contents are written here. The header is included the "voicemail" icons.</p>
+            </div>
+        </li>
+    </ul>
+Ends here....
+
+Tabs accordion expandable
+ <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/material-design-icons/materialfont.woff2) format('woff2');
+        }
+        
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <br>
+    <br>
+    <br>
+
+    <ul class="collapsible popout" data-collapsible="expandable">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">language</i>Tab 1</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 1 content. Tab one related contents are written here. The header is included the "language" icons.</p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">vpn_key</i>Tab 2</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 2 content. Tab two related contents are written here. The header is included the "vpn_key" icons.</p>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">voicemail</i>Tab 3</div>
+            <div class="collapsible-body">
+                <p>This contain Tab 3 content. Tab three related contents are written here. The header is included the "voicemail" icons.</p>
+            </div>
+        </li>
+    </ul>
+Ends here...
+Materialize image box...
+<br>
+    <br>
+    <br>
+
+    <img class="materialboxed" src="cardimage.jpg" width="50px" height="50px">
+    <img class="materialboxed" src="natural.jpg" width="50px" height="50px">
+
+Ends here....
+Image slider..
+
+    <br>
+    <br>
+    <br>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="natural1.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="natural2.jpg">
+                <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="natural3.jpg">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="natural4.jpg">
+                <!-- random image -->
+                <div class="caption center-align"> 
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider').slider({
+                full_width: true
+            });
+        });
+    </script>
+Ends here...
+
+Model popup info
+
+    <div class="container">
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>I am title</h4>
+                <p>This area is contain popup main message or textbox's any other html controls.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+            $('.modal-trigger').leanModal();
+        });
+    </script>
+Ends here..

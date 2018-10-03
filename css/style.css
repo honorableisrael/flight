@@ -1,0 +1,161 @@
+
+
+
+
+.slider .indicators .indicator-item.active{
+    background-color: rgba(91,135,200,1) ;
+}
+.about{
+    background-color: #e9ecef;
+    padding: 20px
+    box-shadow: 0px ;
+}
+
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+    color: skyblue;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+    color: skyblue;
+}
+.tabs .indicator {
+    background-color: rgba(32,24,107,1); 
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: rgba(32,24,107,1);
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+        color: skyblue;
+        opacity: 0.8;
+        background-color: white;
+}
+.tabs .tab a{
+    color: rgba(91,135,200,1);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 19px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color .28s ease, background-color .28s ease;
+}
+/* Custom Stylesheet */
+
+.bodytext{
+    color: rgba(32,24,107,1);
+    font-weight: normal;
+}
+.logoclass{
+    color: rgba(32,24,107,1);
+    font-weight: normal;
+    font-size: 20px;
+}
+.logos{
+    color: rgba(32,24,107,1);
+    font-weight: normal;
+    font-size: 29px;
+}
+    .btn-logo:hover, .btncolor.active{
+        border-bottom-style: outset;
+        color: white;
+    background-color:rgba(91,135,200,1) ;
+        transition: 1s  ease-in-out;
+}
+.logoclass:hover{
+        color: red;
+        border-bottom-style: inset;
+    background-color: inherit;
+        transition: 0s  ease-in-out;
+}
+    
+.headcolr{
+    color: rgba(91,135,200,1);
+}
+
+.btncolor{
+        color: rgba(91,135,200,1);
+        background-color: white;
+        transition: 0s  ease-in-out;
+}
+
+    .text-skyblue:hover{
+           color: skyblue;
+        border-bottom-style: inset;
+        background-color: inherit;
+        transition: 0s  ease-in-out;
+    }
+.text-skyblue{
+    color: skyblue;
+}
+
+.btn-logo{
+    font-weight: normal;
+    font-size: 20px;
+    background-color: white;
+    text-transform: none;
+    
+}
+
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+h6{
+    font-weight: bold;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+  
+.sect1{
+    background-color: rgba(230,230,230,1);
+}
+.footColr{
+    background-color: rgba(91,135,200,1);
+}
+.footbase{
+    background-color:black;
+}
